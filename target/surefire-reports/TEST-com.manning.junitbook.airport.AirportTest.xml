@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.manning.junitbook.airport.AirportTest" time="0.183" tests="26" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.manning.junitbook.airport.AirportTest" time="0.092" tests="26" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\alerg\AppData\Local\Temp\surefire16565774559577400991\surefirebooter7422934729346878052.jar C:\Users\alerg\AppData\Local\Temp\surefire16565774559577400991 2025-11-27T12-13-03_653-jvmRun1 surefire8855828511398427225tmp surefire_017835737298685208306tmp"/>
+    <property name="sun.java.command" value="C:\Users\alerg\AppData\Local\Temp\surefire1161751322046915531\surefirebooter11973906950066754879.jar C:\Users\alerg\AppData\Local\Temp\surefire1161751322046915531 2025-11-27T12-24-24_933-jvmRun1 surefire4463395007875702470tmp surefire_014612103323553369829tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\alerg\Desktop\LABORATORIO\ch20-tdd\Phase5\target\test-classes;C:\Users\alerg\Desktop\LABORATORIO\ch20-tdd\Phase5\target\classes;C:\Users\alerg\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\alerg\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\alerg\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\alerg\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\alerg\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\alerg\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alerg\AppData\Local\Temp\surefire16565774559577400991\surefirebooter7422934729346878052.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alerg\AppData\Local\Temp\surefire1161751322046915531\surefirebooter11973906950066754879.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-LTS-2513"/>
@@ -44,6 +44,7 @@
     <property name="localRepository" value="C:\Users\alerg\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\alerg\AppData\Local\Temp\"/>
+    <property name="sonar.token" value="8e33a2e40aa8554c8ee3e7dd2793755cf0a9e4ce"/>
     <property name="java.version" value="21"/>
     <property name="user.dir" value="C:\Users\alerg\Desktop\LABORATORIO\ch20-tdd\Phase5"/>
     <property name="os.arch" value="amd64"/>
@@ -58,30 +59,30 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testPremiumFlightVipPassenger" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.045"/>
-  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.011"/>
+  <testcase name="testPremiumFlightVipPassenger" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.025"/>
+  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.005"/>
   <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[2]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.001"/>
   <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[3]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.001"/>
-  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.001"/>
-  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.001"/>
-  <testcase name="testPremiumFlightRegularPassenger" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$RegularPassenger" time="0.004"/>
-  <testcase name="testBusinessFlightVipPassenger" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.004"/>
-  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.004"/>
+  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0"/>
+  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0"/>
+  <testcase name="testPremiumFlightRegularPassenger" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$RegularPassenger" time="0.001"/>
+  <testcase name="testBusinessFlightVipPassenger" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0"/>
   <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[2]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0"/>
-  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[3]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0"/>
-  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.002"/>
+  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[3]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.001"/>
   <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.001"/>
-  <testcase name="testBusinessFlightRegularPassenger" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$RegularPassenger" time="0.005"/>
-  <testcase name="testEconomyFlightVipPassenger" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.004"/>
-  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.003"/>
-  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[2]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testBusinessFlightRegularPassenger" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$RegularPassenger" time="0.003"/>
+  <testcase name="testEconomyFlightVipPassenger" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.003"/>
+  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.002"/>
+  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[2]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0"/>
   <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[3]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0"/>
-  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.001"/>
-  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0"/>
-  <testcase name="testEconomyFlightRegularPassenger" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.004"/>
+  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0"/>
+  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testEconomyFlightRegularPassenger" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.002"/>
   <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.002"/>
-  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[2]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.001"/>
+  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[2]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0"/>
   <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[3]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0"/>
-  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0"/>
-  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.006"/>
+  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.001"/>
+  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.001"/>
 </testsuite>
